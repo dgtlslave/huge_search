@@ -1,0 +1,83 @@
+html {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+* {
+  transition: all ease-out 0.3s;
+}
+.main-item {
+  display: inline-block;
+  min-width: 33%;
+}
+body {
+  margin: 40px 380px;
+  max-width: 100%;
+}
+.form {
+  max-width: 100%;
+}
+.main-list {
+  max-width: 100%;
+}
+.people-list {
+  max-width: 100%;
+}
+.main-item .people-list li, .main-item .popular-list li, .main-item .recent-list li  {
+  background-color: #ebebed;
+  border-color: #ebebed;
+  border-radius: 5px;
+  margin: 5px;
+  color: #c2c2c2;
+  min-height: 50px;
+  max-width: 350px;
+}
+.people-list li img {
+  border-radius: 50%;
+}
+a {
+  color: #c2c2c2;
+  text-decoration: none;
+}
+li a span {
+  display: inline;
+  vertical-align: 120%;
+  margin-left: 10px;
+}
+li a img {
+ padding: 5px 0 2px 5px;
+}
+.s {
+  display: inline-block;
+}
+.magnifier {
+  background: url('../img/magnifier.svg') ;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+}
+.magnifier:hover {
+  transform: scale(1.2);
+}
+.main-list .main-item .people-list .list-title, .main-list .main-item .popular-list .list-title, .main-list .main-item .recent-list .list-title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  background-color: #f1f1f1;
+}
+.title {
+  height: 50px;
+  vertical-align: -110%;
+}
+input {
+  min-height: 100px;
+  background-color: #f1f1f1;
+  border: none;
+  margin: 0 5px;
+  font-size: 80px;
+  font-weight: bold;
+}
+::-webkit-input-placeholder {color: #c2c2c2;}
+::-moz-placeholder          {color: #c2c2c2;}
+:-moz-placeholder           {color: #c2c2c2;}
+:-ms-input-placeholder      {color: #c2c2c2;}
